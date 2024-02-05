@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#submit{
+    margin: 10px 4px;
+    
+}
+
+a h1{
+    text-decoration: none;
+}
+
+
+
+
+#button-login{
+    border: 1px solid rgba(255, 255, 255, 0.863);
+    margin-left: 70px;
+    padding: 5px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+
+#heading-form-login{
+    margin-left: 50px;
+}
+
+.form-login{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid rgba(255, 0, 0, 0.459);
+    text-align: center;
+    background-color:black;
+    color: white;
+    width: 400px;
+    height: 400px;
+    padding-right: 50px;
+    border-radius: 15px;
+
+}
+
+
+.div-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+
+}
+
+.form-login input[type="text"], input[type="password"]{
+    border-radius: 10px;
+}
+
+
+/* Adicione a classe 'hidden-label' para ocultar as labels */
+.hidden-label {
+    display: none;
+}
+
+
+.imagem{
+   margin-bottom: 10px;
+   margin-left: 50px;
+    
+}
+
+  

@@ -1,0 +1,24 @@
+{% extends 'myapp/base.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+
+{% block content %}
+
+<div class="div-login">
+    <form action="{% url 'app_users:login' %}" method="post" class="form-login">
+        {% csrf_token %}
+        <div class="imagem">
+            <img src="{% static 'img/OIP.png' %}" alt="logo-login">
+        </div>
+        
+        {{ form.as_p }}
+     
+        
+        <input type="submit" value="sign in" id="button-login">
+        <input type="hidden" name="next" value="{% url 'myapp:home' %}">
+    </form>
+</div>
+
+
+{% endblock content %}
